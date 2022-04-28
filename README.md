@@ -9,25 +9,32 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/codeigniter4/CodeIgniter4/pulls)
 <br>
 
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
-
-This repository holds the source code for CodeIgniter 4 only.
-Version 4 is a complete rewrite to bring the quality and the code into a more modern version,
-while still keeping as many of the things intact that has made people love the framework over the years.
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+## How to start the applcation
+php spark serve
 
 ### Documentation
 
-The [User Guide](https://codeigniter4.github.io/userguide/) is the primary documentation for CodeIgniter 4.
 
 The current **in-progress** User Guide can be found [here](https://codeigniter4.github.io/CodeIgniter4/).
 As with the rest of the framework, it is a work in progress, and will see changes over time to structure, explanations, etc.
 
 You might also be interested in the [API documentation](https://codeigniter4.github.io/api/) for the framework components.
+
+Project serves on http://localhost:8080/
+To login as admin select user type admin.
+
+Admin can add user and have a list view for the same.
+
+User on login can upload documents.
+
+Select user type as user for user login.
+
+Admin can view the documents on view list page give on top bar after login.
+
+As sms services need to be register on dlt portal and there is no free sms gateway api i created a otp view section:
+To check user otp http://localhost:8080/otp-section
+
+Please import the database which is located in the public folder name = qubehealth.sql.
 
 ## Important Change with index.php
 
